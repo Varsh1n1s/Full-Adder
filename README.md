@@ -1,0 +1,2 @@
+# Full-Adder
+A full adder is a digital circuit used in binary addition to sum three input bits: two significant bits and a carry bit from a previous addition. It has three inputs—usually labeled as A, B, and Carry-in—and two outputs: Sum and Carry-out. The Sum output gives the result of the binary addition, while the Carry-out is passed to the next higher bit position in multi-bit addition operations. Full adders are a key component in the construction of more complex arithmetic circuits like binary adders in CPUs.
