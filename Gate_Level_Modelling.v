@@ -10,3 +10,13 @@ module full_adder(
   or g1(Carry,c1,c2);
   
 endmodule
+
+//Gate level modelling verilog code for half adder
+module half_adder(
+  output Sum,Carry,
+  input A,B);
+
+  xor g1(Sum,A,B);
+  and g2(Carry,A,B);
+
+endmodule
